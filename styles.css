@@ -26,7 +26,6 @@ body {
 
 .grid-item {
     padding: 1px;
-    border: 1px solid black;
 }
 
 #header {
@@ -44,9 +43,13 @@ body {
 }
 
 .settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 20%;
     text-align: center;
-    padding: 8px;;
+    padding: 8px;
+
 }
 
 .canvas-area {
@@ -89,4 +92,17 @@ body {
 #slider::-webkit-slider-thumb:hover{
     height: 30px;
     width: 30px;
+}
+
+.clear {
+    margin: 20px;
+    align-self: center;
+}
+
+.slideContainer {
+    align-self: flex-start;
+}
+
+#color {
+    border-radius: 5px;
 }
